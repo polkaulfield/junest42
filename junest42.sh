@@ -10,7 +10,7 @@ echo '[*] Cloning junest repo'
 git clone https://github.com/fsquillace/junest.git ~/.local/share/junest
 echo '[*] Adding path variables to ~/.zshrc'
 echo '# Junest paths"
-export PATH="$PATH:~/.junest/usr/bin_wrappers"
+export PATH="$PATH:~/.junest/usr/bin"
 export PATH="$PATH:~/.junest/usr/bin_wrappers"' >> ~/.zshrc
 export PATH=~/.local/share/junest/bin:$PATH
 export PATH="$PATH:~/.junest/usr/bin_wrappers"
