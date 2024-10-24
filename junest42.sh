@@ -9,8 +9,8 @@ ln -s ~/sgoinfre/junest ~/.junest
 echo '[*] Cloning junest repo'
 git clone https://github.com/fsquillace/junest.git ~/.local/share/junest
 echo '[*] Adding path variables to ~/.zshrc'
-echo '# Junest paths"
-export PATH="~/.junest/usr/bin:$PATH"
+echo '# Junest paths
+export PATH="~/.local/share/junest/bin:$PATH"
 export PATH="$PATH:~/.junest/usr/bin_wrappers"' >> ~/.zshrc
 export PATH=~/.local/share/junest/bin:$PATH
 export PATH="$PATH:~/.junest/usr/bin_wrappers"
